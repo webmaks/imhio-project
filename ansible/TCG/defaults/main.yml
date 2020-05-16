@@ -1,0 +1,13 @@
+---
+# defaults file for TCG
+db: "3.122.179.9"
+app: "0.0.0.0"
+db_name: "tcg"
+db_user: "tcg"
+db_pass: "similarly-secure-password"
+
+
+
+
+
+

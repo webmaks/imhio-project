@@ -1,0 +1,2 @@
+app ansible_user=centos
+db ansible_user=centos

@@ -1,0 +1,34 @@
+---
+# tasks file for TCG
+- name: Copy rpm file
+  copy:
+    src: tcg-1-fcc845a.el7.x86_64.rpm
+    dest: /tmp/tcg.rpm
+
+- name: Install tcg application
+  yum:
+    name: /tmp/tcg.rpm
+    state: present
+
+- name: Copy sample config to main config
+  template:
+    src: tcg.config.j2
+    dest: /etc/tcg/tcg.json
+
+- name: Start servive TCG and added to autostart
+  systemd:
+    name: tcg
+    state: started
+    enabled: yes
+
+
+  
+
+
+
+
+
+
+
+#/etc/tcg/tcg.config.sample.json
+  

@@ -1,0 +1,4 @@
+resource "aws_key_pair" "mytest-key" {
+  key_name   = "my-test-terraform-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDLzGI3Hx7puiskPyXSMgTL43iEniyP6bH6Lvm1a3vC0KnDHBvKjab00DbckN5MH/xitnOByq0ioBXWSTTUuDRzc9djBc9pzBV4WzYJ0r7U7LWIL9k7HFYNWF22cxHvHnSZR26fWpdGgfPOzhpgCeRBXrZmUlc68uOLtRJtX9OOfsbl6XHB0vD5b+Z4AgN9Zy6K5Me2sMCDqMswQ0P4q2EHcFXcADUaVCYyfJsRI88siWrR5yF+VX6cUKgeS0qIzrv3z+NfoSow4nqWRVUM9nM78wW4aV/neTRDqoXTgkXmtfFXPs+DY48QOnmXuDuViq6xLDW67LzzI6hCS7EWf5nB maksimka@iMac-Maksimka.local"
+}
