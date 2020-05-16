@@ -15,9 +15,16 @@ terraform init
 terraform plan
 terraform apply
 ```
-Install, setup MySQL Server and Application.
+Install, setup MySQL Server and Application:
 ```console
 cd ../ansible
+```
+Edit inventory file to specify servers:
+```console
+vim inventory
+```
+Run playbook:
+```console
 ansible-playbook -i inventory deploy.yml
 ```
 
