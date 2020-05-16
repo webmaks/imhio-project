@@ -1,9 +1,4 @@
-# export AWS_ACCESS_KEY_ID="AKIARGBYTXIRQWWWLA7S"
-# export AWS_SECRET_ACCESS_KEY="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"
-# export AWS_DEFAULT_REGION="eu-central-1"
 provider "aws" {
-  access_key = "AKIARGBYTXIRQWWWLA7S"
-  secret_key = "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"
   region     = "eu-central-1"
 
 }
